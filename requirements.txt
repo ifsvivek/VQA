@@ -1,0 +1,8 @@
+python-dotenv
+gradio
+gradio-multimodalchatbot
+langchain-core
+langchain
+groq
+Pillow
+langchain-community
