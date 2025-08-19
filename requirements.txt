@@ -3,6 +3,9 @@ gradio
 gradio-multimodalchatbot
 langchain-core
 langchain
-groq
 Pillow
 langchain-community
+transformers
+torch
+accelerate
+requests

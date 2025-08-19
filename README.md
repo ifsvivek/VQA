@@ -1,6 +1,6 @@
 # Visual Question Answering (VQA) System
 
-A web application that enables users to ask and receive answers to questions about images. This system takes an image and a text-based question as inputs and generates a natural language answer as output, leveraging the powerful Llama-3.2-11b-vision model via the Groq API.
+A web application that enables users to ask and receive answers to questions about images. This system takes an image and a text-based question as inputs and generates a natural language answer as output, leveraging the powerful Gemma-3n local model.
 
 ## About Visual Question Answering (VQA)
 
@@ -11,7 +11,7 @@ Visual Question Answering is an AI task that combines computer vision and natura
 3. Reason about the relationship between the question and the image
 4. Generate an appropriate answer in natural language
 
-This implementation uses state-of-the-art multimodal AI to seamlessly connect visual understanding with language comprehension and generation.
+This implementation uses the state-of-the-art Gemma-3n multimodal model running locally to seamlessly connect visual understanding with language comprehension and generation.
 
 ## Features
 
@@ -22,13 +22,16 @@ This implementation uses state-of-the-art multimodal AI to seamlessly connect vi
 -   Pre-loaded example images for demonstration
 -   Interactive chat interface with message history
 -   One-click conversation reset
+-   **Local model execution** - no internet connection required for inference
+-   **Privacy-focused** - your images and conversations stay on your device
 
 ## Technical Overview
 
 This VQA system leverages:
 
--   **Llama-3.2-11b-vision**: A large multimodal model capable of understanding both images and text
--   **Groq API**: For fast and efficient model inference
+-   **Gemma-3n-e4b-it**: Google's powerful multimodal model capable of understanding both images and text
+-   **Transformers**: For loading and running the model locally
+-   **PyTorch**: For efficient model inference
 -   **LangChain**: For maintaining conversation context and history
 -   **Gradio**: For building the interactive web interface
 -   **PIL (Python Imaging Library)**: For image processing
@@ -36,8 +39,9 @@ This VQA system leverages:
 ## Requirements
 
 -   Python 3.8+
--   Groq API key (Get one at https://console.groq.com/)
--   Internet connection for API access
+-   GPU with at least 8GB VRAM (recommended for optimal performance)
+-   Sufficient disk space for model download (~6GB)
+-   CUDA-compatible GPU (optional but recommended)
 
 ## Installation
 
@@ -54,10 +58,9 @@ This VQA system leverages:
     pip install -r requirements.txt
     ```
 
-3. Create a `.env` file in the project root with your Groq API key:
-    ```
-    GROQ_API_KEY=your_groq_api_key_here
-    ```
+    **Note**: The first time you run the application, the Gemma model will be downloaded automatically. This may take some time and requires an internet connection.
+
+3. *(Optional)* Create a `.env` file if you have any environment-specific configurations (though none are required for the local model).
 
 ## Usage
 
@@ -66,6 +69,8 @@ This VQA system leverages:
     ```bash
     python app.py
     ```
+
+    **First Run**: The model will be downloaded and loaded. This may take several minutes and require ~6GB of disk space.
 
 2. Open the provided URL in your web browser (typically http://127.0.0.1:7860)
 
@@ -91,32 +96,44 @@ Here are some examples of questions you can ask about an uploaded image:
 
 ## How It Works
 
-1. **Image Processing**: The uploaded image is temporarily stored and converted to a base64 encoding for API submission.
+1. **Model Loading**: The Gemma-3n model is loaded locally using the Transformers library with automatic device mapping for optimal performance.
 
-2. **Question Analysis**: The system processes the user's natural language question.
+2. **Image Processing**: The uploaded image is temporarily stored and passed directly to the model without needing API encoding.
 
-3. **Context Management**: Previous conversation turns are tracked to maintain context for follow-up questions.
+3. **Question Analysis**: The system processes the user's natural language question.
 
-4. **API Interaction**: The image and question (along with any relevant conversation history) are sent to the Groq API utilizing the Llama-3.2-11b-vision model.
+4. **Context Management**: Previous conversation turns are tracked to maintain context for follow-up questions.
 
-5. **Multimodal Processing**: The model analyzes both the visual content of the image and the linguistic content of the question.
+5. **Local Inference**: The image and question (along with any relevant conversation history) are processed by the local Gemma model.
 
-6. **Response Generation**: The model generates a natural language response that answers the question based on the image content.
+6. **Multimodal Processing**: The model analyzes both the visual content of the image and the linguistic content of the question locally on your device.
 
-7. **User Interface**: The response is displayed to the user in an intuitive chat interface.
+7. **Response Generation**: The model generates a natural language response that answers the question based on the image content.
+
+8. **User Interface**: The response is displayed to the user in an intuitive chat interface.
 
 ## Limitations
 
--   The system requires internet access to communicate with the Groq API.
+-   Requires significant computational resources (GPU recommended).
+-   Initial model download requires internet connection and disk space (~6GB).
+-   Inference speed depends on your hardware capabilities.
 -   Very complex visual scenes may receive simplified interpretations.
 -   The quality of answers depends on the clarity and resolution of the uploaded images.
--   There may be usage limits based on the Groq API's rate limiting policies.
+
+## Advantages of Local Model
+
+-   **Privacy**: Your images and conversations never leave your device
+-   **No API costs**: Run unlimited queries without usage fees
+-   **Offline capability**: Works without internet after initial setup
+-   **Customization**: Full control over the model and its parameters
+-   **No rate limits**: Process as many images as your hardware allows
 
 ## Credits
 
 This application uses:
 
--   [Groq API](https://groq.com/) for LLM inference
+-   [Gemma-3n](https://huggingface.co/google/gemma-3n-e4b-it) model from Google
+-   [Transformers](https://huggingface.co/transformers/) for model loading and inference
+-   [PyTorch](https://pytorch.org/) for deep learning operations
 -   [Gradio](https://gradio.app/) for the web interface
 -   [LangChain](https://www.langchain.com/) for conversation management
--   [Llama-3.2-11b-vision](https://www.meta.ai/llama/) model from Meta AI
