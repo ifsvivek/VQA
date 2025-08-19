@@ -34,29 +34,25 @@ def save_image_to_temp(image_pil):
 def generate_response_with_gemma(image_pil, text_prompt, previous_context=""):
     """Generate response using local Gemma model"""
     
-    # Create messages for the model
+    # Create the system prompt with context included
+    system_text = "You are a helpful assistant that can analyze images and answer questions about them. Keep your responses concise and informative."
+    if previous_context:
+        system_text += f" Previous conversation context: {previous_context}"
+    
+    # Create messages for the model with proper alternating structure
     messages = [
         {
             "role": "system",
-            "content": [{"type": "text", "text": "You are a helpful assistant that can analyze images and answer questions about them. Keep your responses concise and informative."}]
+            "content": [{"type": "text", "text": system_text}]
+        },
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image_pil},
+                {"type": "text", "text": text_prompt}
+            ]
         }
     ]
-    
-    # Add previous context if available
-    if previous_context:
-        messages.append({
-            "role": "system",
-            "content": [{"type": "text", "text": f"Previous conversation context: {previous_context}"}]
-        })
-    
-    # Add current user message with image
-    messages.append({
-        "role": "user",
-        "content": [
-            {"type": "image", "image": image_pil},
-            {"type": "text", "text": text_prompt}
-        ]
-    })
     
     try:
         # Apply chat template and tokenize
@@ -133,16 +129,15 @@ def respond(history):
     else:
         text_prompt = user_message
     
-    # Build context from previous messages (last 3 exchanges to keep context manageable)
+    # Build context from previous messages (last 2 exchanges to keep context manageable)
     context_messages = []
-    for i in range(max(0, len(history) - 4), len(history) - 1):
+    for i in range(max(0, len(history) - 3), len(history) - 1):
         if history[i][0] and history[i][1]:
             # Clean up the user message for context
             user_text = history[i][0]
             if user_text.startswith("[Image uploaded] "):
                 user_text = user_text[17:]
-            context_messages.append(f"User: {user_text}")
-            context_messages.append(f"Assistant: {history[i][1]}")
+            context_messages.append(f"Q: {user_text} A: {history[i][1]}")
     
     previous_context = " | ".join(context_messages) if context_messages else ""
     
