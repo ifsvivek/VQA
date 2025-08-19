@@ -1,0 +1,578 @@
+{
+    "papers": [
+        {
+            "id": "1668b7008dc8e823fb651eb13d3bed32c55ac970",
+            "doi": "N/A",
+            "title": "LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery",
+            "pdfUrl": "http://arxiv.org/pdf/2402.16664",
+            "source": "Semantic Scholar",
+            "authors": [
+                "Kexin Chen",
+                "Yuyang Du",
+                "Tao You",
+                "Mobarak Islam Hoque",
+                "Ziyu Guo",
+                "Yueming Jin",
+                "Guangyong Chen",
+                "P. Heng"
+            ],
+            "journal": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+            "abstract": "Visual question answering (VQA) can be fundamentally crucial for promoting robotic-assisted surgical education. In practice, the needs of trainees are constantly evolving, such as learning more surgical types and adapting to new surgical instruments/techniques. Therefore, continually updating the VQA system by a sequential data stream from multiple resources is demanded in robotic surgery to address new tasks. In surgical scenarios, the privacy issue of patient data often restricts the availability of old data when updating the model, necessitating an exemplar-free continual learning (CL) setup. However, prior studies overlooked two vital problems of the surgical domain: i) large domain shifts from diverse surgical operations collected from multiple departments or clinical centers, and ii) severe data imbalance arising from the uneven presence of surgical instruments or activities during surgical procedures. This paper proposes to address these two problems with a multimodal large language model (LLM) and an adaptive weight assignment methodology. We first develop a new multi-teacher CL framework that leverages a multimodal LLM as the additional teacher. The strong generalization ability of the LLM can bridge the knowledge gap when domain shifts and data imbalances occur. We then put forth a novel data processing method that transforms complex LLM embeddings into logits compatible with our CL framework. We also design an adaptive weight assignment approach that balances the generalization ability of the LLM and the domain expertise of the old CL model. Finally, we construct a new dataset for surgical VQA tasks. Extensive experimental results demonstrate the superiority of our method to other advanced CL models.",
+            "arxivPageUrl": "https://www.semanticscholar.org/paper/1668b7008dc8e823fb651eb13d3bed32c55ac970",
+            "qualityScore": 69.61,
+            "citationCount": 22,
+            "publishedDate": "2024-02-26T00:00:00.000Z"
+        },
+        {
+            "id": "d48fa3ed73817563130ef217d85011ce1fbe7470",
+            "doi": "N/A",
+            "title": "BESTMVQA: A Benchmark Evaluation System for Medical Visual Question Answering",
+            "pdfUrl": "N/A",
+            "source": "Semantic Scholar",
+            "authors": [
+                "Xiaojie Hong",
+                "Zixin Song",
+                "Liangzhi Li",
+                "Xiaoli Wang",
+                "Feiyan Liu"
+            ],
+            "journal": "ArXiv",
+            "abstract": "Medical Visual Question Answering (Med-VQA) is a very important task in healthcare industry, which answers a natural language question with a medical image. Existing VQA techniques in information systems can be directly applied to solving the task. However, they often suffer from (i) the data insufficient problem, which makes it difficult to train the state of the arts (SOTAs) for the domain-specific task, and (ii) the reproducibility problem, that many existing models have not been thoroughly evaluated in a unified experimental setup. To address these issues, this paper develops a Benchmark Evaluation SysTem for Medical Visual Question Answering, denoted by BESTMVQA. Given self-collected clinical data, our system provides a useful tool for users to automatically build Med-VQA datasets, which helps overcoming the data insufficient problem. Users also can conveniently select a wide spectrum of SOTA models from our model library to perform a comprehensive empirical study. With simple configurations, our system automatically trains and evaluates the selected models over a benchmark dataset, and reports the comprehensive results for users to develop new techniques or perform medical practice. Limitations of existing work are overcome (i) by the data generation tool, which automatically constructs new datasets from unstructured clinical data, and (ii) by evaluating SOTAs on benchmark datasets in a unified experimental setup. The demonstration video of our system can be found at https://youtu.be/QkEeFlu1x4A. Our code and data will be available soon.",
+            "arxivPageUrl": "https://www.semanticscholar.org/paper/d48fa3ed73817563130ef217d85011ce1fbe7470",
+            "qualityScore": 59.23,
+            "citationCount": 3,
+            "publishedDate": "2023-12-13T00:00:00.000Z"
+        },
+        {
+            "id": "0db1302502a948a3b70503dc02ac606a",
+            "doi": "10.1109/ACCESS.2025.3572001",
+            "title": "Development of OCR Service for Page-Level Recognition for Camera-Captured Document Images",
+            "pdfUrl": "https://ieeexplore.ieee.org/document/11007558/",
+            "source": "DOAJ",
+            "authors": [
+                "Junyoung Park",
+                "Wonjun Kang",
+                "Seonji Park",
+                "Keuntek Lee",
+                "Hyung Il Koo",
+                "Nam Ik Cho"
+            ],
+            "journal": "IEEE Access",
+            "abstract": "The emergence of Large Language Models (LLMs) has driven significant advancements in Natural Language Processing (NLP) and introduced new text-related applications, such as Visual Question Answering (VQA). As a result, there is a growing need for Optical Character Recognition (OCR) systems that can extract textual contents from document images for LLM applications. However, most existing methods have primarily focused on scene text or well-structured document images, and typically limit text detection and recognition to the word level. In this paper, we propose a novel OCR framework capable of detecting and recognizing text at both the text-line and text-block levels. Specifically, we design a new deep neural network (DNN) to replace the Connected Component (CC) extraction and state estimation processes used in conventional methods. Despite being trained solely on synthetic datasets, the proposed OCR system performs robust text detection and layout analysis. Furthermore, we propose a recognition metric to evaluate content preservation in OCR systems and introduce a new OCR benchmark consisting of camera-captured document images. Our method demonstrates superior performance on this benchmark, outperforming existing OCR APIs.",
+            "arxivPageUrl": "https://doaj.org/article/0db1302502a948a3b70503dc02ac606a",
+            "qualityScore": 56,
+            "publishedDate": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "1cb09f28430241c2b3df11a4a062bb6f",
+            "doi": "N/A",
+            "title": "Intelligent visual question answering in TCM education: An innovative application of IoT and multimodal fusion",
+            "pdfUrl": "http://www.sciencedirect.com/science/article/pii/S1110016824016508",
+            "source": "DOAJ",
+            "authors": [
+                "Wei Bi",
+                "Qingzhen Xiong",
+                "Xingyi Chen",
+                "Qingkun Du",
+                "Jun Wu",
+                "Zhaoyu Zhuang"
+            ],
+            "journal": "Alexandria Engineering Journal",
+            "abstract": "This paper proposes an innovative Traditional Chinese Medicine Ancient Text Education Intelligent Visual Question Answering System (TCM-VQA IoTNet), which integrates Internet of Things (IoT) technology with multimodal learning to achieve a deep understanding and intelligent question answering of both the images and textual content of traditional Chinese medicine ancient texts. The system utilizes the VisualBERT model for multimodal feature extraction, combined with Gated Recurrent Units (GRU) to process time-series data from IoT sensors, and employs an attention mechanism to optimize feature fusion, dynamically adjusting the question answering strategy. Experimental evaluations on standard datasets such as VQA v2.0, CMRC 2018, and the Chinese Traditional Medicine Dataset demonstrate that TCM-VQA IoTNet achieves accuracy rates of 72.7%, 69.%, and 75.4% respectively, with F1-scores of 70.3%, 67.5%, and 73.9%, significantly outperforming existing mainstream models. Furthermore, TCM-VQA IoTNet has shown excellent performance in practical applications of traditional Chinese medicine education, significantly enhancing the precision and interactivity of intelligent education. Future research will focus on improving the model’s generalization ability and computational efficiency, further expanding its application potential in traditional Chinese medicine diagnosis and education.",
+            "arxivPageUrl": "https://doaj.org/article/1cb09f28430241c2b3df11a4a062bb6f",
+            "qualityScore": 56,
+            "publishedDate": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "39079429",
+            "doi": "10.1016/j.media.2024.103279",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39079429/",
+            "pmid": "39079429",
+            "year": 2024,
+            "title": "Interpretable medical image Visual Question Answering via multi-modal relationship graph learning.",
+            "pdfUrl": "N/A",
+            "source": "PubMed",
+            "authors": [
+                "Hu X",
+                "Gu L",
+                "Kobayashi K et al."
+            ],
+            "journal": "Medical image analysis",
+            "pubDate": "2024 Oct",
+            "abstract": "Medical Visual Question Answering (VQA) is an important task in medical multi-modal Large Language Models (LLMs), aiming to answer clinically relevant questions regarding input medical images. This technique has the potential to improve the efficiency of medical professionals while relieving the burden on the public health system, particularly in resource-poor countries. However, existing medical VQA datasets are small and only contain simple questions (equivalent to classification tasks), which lack semantic reasoning and clinical knowledge. Our previous work proposed a clinical knowledge-driven image difference VQA benchmark using a rule-based approach (Hu et al., 2023). However, given the same breadth of information coverage, the rule-based approach shows an 85% error rate on extracted labels. We trained an LLM method to extract labels with 62% increased accuracy. We also comprehensively evaluated our labels with 2 clinical experts on 100 samples to help us fine-tune the LLM. Based on the trained LLM model, we proposed a large-scale medical VQA dataset, Medical-CXR-VQA, using LLMs focused on chest X-ray images. The questions involved detailed information, such as abnormalities, locations, levels, and types. Based on this dataset, we proposed a novel VQA method by constructing three different relationship graphs: spatial relationships, semantic relationships, and implicit relationship graphs on the image regions, questions, and semantic labels. We leveraged graph attention to learn the logical reasoning paths for different questions. These learned graph VQA reasoning paths can be further used for LLM prompt engineering and chain-of-thought, which are crucial for further fine-tuning and training multi-modal large language models. Moreover, we demonstrate that our approach has the qualities of evidence and faithfulness, which are crucial in the clinical field. The code and the dataset is available at https://github.com/Holipori/Medical-CXR-VQA.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/39079429/",
+            "fullAbstract": "Medical Visual Question Answering (VQA) is an important task in medical multi-modal Large Language Models (LLMs), aiming to answer clinically relevant questions regarding input medical images. This technique has the potential to improve the efficiency of medical professionals while relieving the burden on the public health system, particularly in resource-poor countries. However, existing medical VQA datasets are small and only contain simple questions (equivalent to classification tasks), which lack semantic reasoning and clinical knowledge. Our previous work proposed a clinical knowledge-driven image difference VQA benchmark using a rule-based approach (Hu et al., 2023). However, given the same breadth of information coverage, the rule-based approach shows an 85% error rate on extracted labels. We trained an LLM method to extract labels with 62% increased accuracy. We also comprehensively evaluated our labels with 2 clinical experts on 100 samples to help us fine-tune the LLM. Based on the trained LLM model, we proposed a large-scale medical VQA dataset, Medical-CXR-VQA, using LLMs focused on chest X-ray images. The questions involved detailed information, such as abnormalities, locations, levels, and types. Based on this dataset, we proposed a novel VQA method by constructing three different relationship graphs: spatial relationships, semantic relationships, and implicit relationship graphs on the image regions, questions, and semantic labels. We leveraged graph attention to learn the logical reasoning paths for different questions. These learned graph VQA reasoning paths can be further used for LLM prompt engineering and chain-of-thought, which are crucial for further fine-tuning and training multi-modal large language models. Moreover, we demonstrate that our approach has the qualities of evidence and faithfulness, which are crucial in the clinical field. The code and the dataset is available at https://github.com/Holipori/Medical-CXR-VQA.",
+            "qualityScore": 54.25,
+            "authorsString": "Hu X, Gu L, Kobayashi K et al.",
+            "citationCount": 0,
+            "publishedDate": "2024-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "e059d039ca4a439d89bbb69155b0123b1dffa141",
+            "doi": "N/A",
+            "title": "POP-VQA – Privacy preserving, On-device, Personalized Visual Question Answering",
+            "pdfUrl": "N/A",
+            "source": "Semantic Scholar",
+            "authors": [
+                "P. Paramita Sahu",
+                "Abhishek Raut",
+                "J. Samant",
+                "Mahesh Gorijala",
+                "Vignesh Lakshminarayanan",
+                "Pinaki Bhaskar"
+            ],
+            "journal": "2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+            "abstract": "The next generation of device smartness needs to go beyond being able to understand basic user commands. As our systems become more efficient, they need to be taught to understand user interactions and intents from all possible input modalities. This is where the recent advent of large scale multi-modal models can form the foundation for next-gen technologies. However, the true power of such interactive systems can only be realized with privacy conserving personalization. In this paper, we propose an on-device visual question answering system that generates personalized answers using on-device user knowledge graph. These systems have the potential to serve as a fundamental ground-work for the development of genuinely intelligent and tailored assistants, targeted specifically to the needs and preferences of each individual. We validate our model performance on both in-realm, public datasets and personal user data. Our results show consistent performance increase across both tasks, with an absolute improvement of ≈36% with KVQA data-set on 1-hop inferences and ≈6% improvement on user personal data. We also conduct and showcase user-study results to validate our hypothesis of the need and relevance of proposed system.",
+            "arxivPageUrl": "https://www.semanticscholar.org/paper/e059d039ca4a439d89bbb69155b0123b1dffa141",
+            "qualityScore": 53.5,
+            "citationCount": 1,
+            "publishedDate": "2024-01-03T00:00:00.000Z"
+        },
+        {
+            "id": "36978771",
+            "doi": "10.3390/bioengineering10030380",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36978771/",
+            "pmid": "36978771",
+            "year": 2023,
+            "title": "Vision-Language Model for Visual Question Answering in Medical Imagery.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10045796/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Bazi Y",
+                "Rahhal MMA",
+                "Bashmal L et al."
+            ],
+            "journal": "Bioengineering (Basel, Switzerland)",
+            "pubDate": "2023 Mar 20",
+            "abstract": "In the clinical and healthcare domains, medical images play a critical role. A mature medical visual question answering system (VQA) can improve diagnosis by answering clinical questions presented with a medical image. Despite its enormous potential in the healthcare industry and services, this technology is still in its infancy and is far from practical use. This paper introduces an approach based on a transformer encoder-decoder architecture. Specifically, we extract image features using the vision transformer (ViT) model, and we embed the question using a textual encoder transformer. Then, we concatenate the resulting visual and textual representations and feed them into a multi-modal decoder for generating the answer in an autoregressive way. In the experiments, we validate the proposed model on two VQA datasets for radiology images termed VQA-RAD and PathVQA. The model shows promising results compared to existing solutions. It yields closed and open accuracies of 84.99% and 72.97%, respectively, for VQA-RAD, and 83.86% and 62.37%, respectively, for PathVQA. Other metrics such as the BLUE score showing the alignment between the predicted and true answer sentences are also reported.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/36978771/",
+            "fullAbstract": "In the clinical and healthcare domains, medical images play a critical role. A mature medical visual question answering system (VQA) can improve diagnosis by answering clinical questions presented with a medical image. Despite its enormous potential in the healthcare industry and services, this technology is still in its infancy and is far from practical use. This paper introduces an approach based on a transformer encoder-decoder architecture. Specifically, we extract image features using the vision transformer (ViT) model, and we embed the question using a textual encoder transformer. Then, we concatenate the resulting visual and textual representations and feed them into a multi-modal decoder for generating the answer in an autoregressive way. In the experiments, we validate the proposed model on two VQA datasets for radiology images termed VQA-RAD and PathVQA. The model shows promising results compared to existing solutions. It yields closed and open accuracies of 84.99% and 72.97%, respectively, for VQA-RAD, and 83.86% and 62.37%, respectively, for PathVQA. Other metrics such as the BLUE score showing the alignment between the predicted and true answer sentences are also reported.",
+            "qualityScore": 52.25,
+            "authorsString": "Bazi Y, Rahhal MMA, Bashmal L et al.",
+            "citationCount": 0,
+            "publishedDate": "2023-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "37673579",
+            "doi": "10.1016/j.artmed.2023.102611",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37673579/",
+            "pmid": "37673579",
+            "year": 2023,
+            "title": "Medical visual question answering: A survey.",
+            "pdfUrl": "N/A",
+            "source": "PubMed",
+            "authors": [
+                "Lin Z",
+                "Zhang D",
+                "Tao Q et al."
+            ],
+            "journal": "Artificial intelligence in medicine",
+            "pubDate": "2023 Sep",
+            "abstract": "Medical Visual Question Answering (VQA) is a combination of medical artificial intelligence and popular VQA challenges. Given a medical image and a clinically relevant question in natural language, the medical VQA system is expected to predict a plausible and convincing answer. Although the general-domain VQA has been extensively studied, the medical VQA still needs specific investigation and exploration due to its task features. In the first part of this survey, we collect and discuss the publicly available medical VQA datasets up-to-date about the data source, data quantity, and task feature. In the second part, we review the approaches used in medical VQA tasks. We summarize and discuss their techniques, innovations, and potential improvements. In the last part, we analyze some medical-specific challenges for the field and discuss future research directions. Our goal is to provide comprehensive and helpful information for researchers interested in the medical visual question answering field and encourage them to conduct further research in this field.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/37673579/",
+            "fullAbstract": "Medical Visual Question Answering (VQA) is a combination of medical artificial intelligence and popular VQA challenges. Given a medical image and a clinically relevant question in natural language, the medical VQA system is expected to predict a plausible and convincing answer. Although the general-domain VQA has been extensively studied, the medical VQA still needs specific investigation and exploration due to its task features. In the first part of this survey, we collect and discuss the publicly available medical VQA datasets up-to-date about the data source, data quantity, and task feature. In the second part, we review the approaches used in medical VQA tasks. We summarize and discuss their techniques, innovations, and potential improvements. In the last part, we analyze some medical-specific challenges for the field and discuss future research directions. Our goal is to provide comprehensive and helpful information for researchers interested in the medical visual question answering field and encourage them to conduct further research in this field.",
+            "qualityScore": 51.6,
+            "authorsString": "Lin Z, Zhang D, Tao Q et al.",
+            "citationCount": 0,
+            "publishedDate": "2023-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "2309.17133",
+            "title": "Fine-grained Late-interaction Multi-modal Retrieval for Retrieval\n  Augmented Visual Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/2309.17133v2",
+            "source": "ArXiv",
+            "authors": [
+                "Weizhe Lin",
+                "Jinghong Chen",
+                "Jingbiao Mei",
+                "Alexandru Coca",
+                "Bill Byrne"
+            ],
+            "abstract": "Knowledge-based Visual Question Answering (KB-VQA) requires VQA systems to\nutilize knowledge from external knowledge bases to answer visually-grounded\nquestions. Retrieval-Augmented Visual Question Answering (RA-VQA), a strong\nframework to tackle KB-VQA, first retrieves related documents with Dense\nPassage Retrieval (DPR) and then uses them to answer questions. This paper\nproposes Fine-grained Late-interaction Multi-modal Retrieval (FLMR) which\nsignificantly improves knowledge retrieval in RA-VQA. FLMR addresses two major\nlimitations in RA-VQA's retriever: (1) the image representations obtained via\nimage-to-text transforms can be incomplete and inaccurate and (2) relevance\nscores between queries and documents are computed with one-dimensional\nembeddings, which can be insensitive to finer-grained relevance. FLMR overcomes\nthese limitations by obtaining image representations that complement those from\nthe image-to-text transforms using a vision model aligned with an existing\ntext-based retriever through a simple alignment network. FLMR also encodes\nimages and questions using multi-dimensional embeddings to capture\nfiner-grained relevance between queries and documents. FLMR significantly\nimproves the original RA-VQA retriever's PRRecall@5 by approximately 8\\%.\nFinally, we equipped RA-VQA with two state-of-the-art large\nmulti-modal/language models to achieve $\\sim61\\%$ VQA score in the OK-VQA\ndataset.",
+            "arxivPageUrl": "http://arxiv.org/abs/2309.17133v2",
+            "qualityScore": 51.5,
+            "publishedDate": "2023-09-29T10:54:10Z"
+        },
+        {
+            "id": "2204.00879",
+            "title": "Co-VQA : Answering by Interactive Sub Question Sequence",
+            "pdfUrl": "http://arxiv.org/pdf/2204.00879v1",
+            "source": "ArXiv",
+            "authors": [
+                "Ruonan Wang",
+                "Yuxi Qian",
+                "Fangxiang Feng",
+                "Xiaojie Wang",
+                "Huixing Jiang"
+            ],
+            "abstract": "Most existing approaches to Visual Question Answering (VQA) answer questions\ndirectly, however, people usually decompose a complex question into a sequence\nof simple sub questions and finally obtain the answer to the original question\nafter answering the sub question sequence(SQS). By simulating the process, this\npaper proposes a conversation-based VQA (Co-VQA) framework, which consists of\nthree components: Questioner, Oracle, and Answerer. Questioner raises the sub\nquestions using an extending HRED model, and Oracle answers them one-by-one. An\nAdaptive Chain Visual Reasoning Model (ACVRM) for Answerer is also proposed,\nwhere the question-answer pair is used to update the visual representation\nsequentially. To perform supervised learning for each model, we introduce a\nwell-designed method to build a SQS for each question on VQA 2.0 and VQA-CP v2\ndatasets. Experimental results show that our method achieves state-of-the-art\non VQA-CP v2. Further analyses show that SQSs help build direct semantic\nconnections between questions and images, provide question-adaptive\nvariable-length reasoning chains, and with explicit interpretability as well as\nerror traceability.",
+            "arxivPageUrl": "http://arxiv.org/abs/2204.00879v1",
+            "qualityScore": 46.5,
+            "publishedDate": "2022-04-02T15:09:16Z"
+        },
+        {
+            "id": "40272956",
+            "doi": "10.1109/TNNLS.2025.3558857",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40272956/",
+            "pmid": "40272956",
+            "year": 2025,
+            "title": "Beyond the Hype: A Dispassionate Look at Vision-Language Models in Medical Scenario.",
+            "pdfUrl": "N/A",
+            "source": "PubMed",
+            "authors": [
+                "Nan Y",
+                "Zhou H",
+                "Xing X et al."
+            ],
+            "journal": "IEEE transactions on neural networks and learning systems",
+            "pubDate": "2025 Apr 24",
+            "abstract": "Recent advancements in large vision-language models (LVLMs) have demonstrated remarkable capabilities across diverse tasks, garnering significant attention in AI communities. However, their performance and reliability in specialized domains such as medicine remain insufficiently assessed. In particular, most assessments overconcentrate on evaluating VLMs based on simple visual question answering (VQA) on multimodality data while ignoring the in-depth characteristics of LVLMs. In this study, we introduce RadVUQA, a novel radiological visual understanding and question answering benchmark, to comprehensively evaluate existing LVLMs. RadVUQA mainly validates LVLMs across five dimensions: 1) anatomical understanding, assessing the models' ability to visually identify biological structures; 2) multimodal comprehension, which involves the capability of interpreting linguistic and visual instructions to produce desired outcomes; 3) quantitative and spatial reasoning, evaluating the models' spatial awareness and proficiency in combining quantitative analysis with visual and linguistic information; 4) physiological knowledge, measuring the models' capability to comprehend functions and mechanisms of organs and systems; and 5) robustness, which assesses the models' capabilities against unharmonized and synthetic data. The results indicate that both generalized LVLMs and medical-specific LVLMs have critical deficiencies with weak multimodal comprehension and quantitative reasoning capabilities. Our findings reveal the large gap between existing LVLMs and clinicians, highlighting the urgent need for more robust and intelligent LVLMs. The code is available at https://github.com/Nandayang/RadVUQA.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/40272956/",
+            "fullAbstract": "Recent advancements in large vision-language models (LVLMs) have demonstrated remarkable capabilities across diverse tasks, garnering significant attention in AI communities. However, their performance and reliability in specialized domains such as medicine remain insufficiently assessed. In particular, most assessments overconcentrate on evaluating VLMs based on simple visual question answering (VQA) on multimodality data while ignoring the in-depth characteristics of LVLMs. In this study, we introduce RadVUQA, a novel radiological visual understanding and question answering benchmark, to comprehensively evaluate existing LVLMs. RadVUQA mainly validates LVLMs across five dimensions: 1) anatomical understanding, assessing the models' ability to visually identify biological structures; 2) multimodal comprehension, which involves the capability of interpreting linguistic and visual instructions to produce desired outcomes; 3) quantitative and spatial reasoning, evaluating the models' spatial awareness and proficiency in combining quantitative analysis with visual and linguistic information; 4) physiological knowledge, measuring the models' capability to comprehend functions and mechanisms of organs and systems; and 5) robustness, which assesses the models' capabilities against unharmonized and synthetic data. The results indicate that both generalized LVLMs and medical-specific LVLMs have critical deficiencies with weak multimodal comprehension and quantitative reasoning capabilities. Our findings reveal the large gap between existing LVLMs and clinicians, highlighting the urgent need for more robust and intelligent LVLMs. The code is available at https://github.com/Nandayang/RadVUQA.",
+            "qualityScore": 57,
+            "authorsString": "Nan Y, Zhou H, Xing X et al.",
+            "citationCount": 0,
+            "publishedDate": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "ec3fae65bd8a4ccb8147eeb45b0a394c",
+            "doi": "10.1109/ACCESS.2024.3442129",
+            "title": "A Semantic Weight Adaptive Model Based on Visual Question Answering",
+            "pdfUrl": "https://ieeexplore.ieee.org/document/10633287/",
+            "source": "DOAJ",
+            "authors": [
+                "Li Huimin",
+                "Li Xuan",
+                "Chen Yan"
+            ],
+            "journal": "IEEE Access",
+            "abstract": "Visual Question Answering (VQA) is an advanced artificial intelligence task that combines computer vision and natural language processing technologies. Its core objective is to enable computers to accurately answer natural language questions posed by users about image content, with these questions being either open-ended or closed-ended. For instance, the system must address closed-ended questions such as &#x201C;Does the image contain 11 goats?&#x201D; and open-ended ones like &#x201C;Where was this photo taken?&#x201D; To accomplish this task, computers must not only deeply analyze image content but also precisely comprehend and respond to complex natural language expressions.However, current VQA models often struggle when dealing with questions requiring deep semantic analysis due to their inability to fully capture the semantic information within the questions. This limitation significantly hinders the models&#x2019; capacity to decipher complex relationships between objects in images and perform high-level semantic reasoning.To address this challenge and recognizing the differing natures of open-ended and closed-ended tasks, we innovatively propose a conditional reasoning model called the Semantic Weight Adaptive Model Network (SWAMN). The crux of this model lies in its ability to automatically extract task-relevant information from questions to dynamically guide the fusion process of multimodal features. This means that SWAMN can more intelligently integrate image and language information to provide more accurate answers to user questions.To validate the effectiveness of the SWAMN model, we conducted extensive ablation studies on the benchmark dataset VQA V2.0. Through both qualitative and quantitative evaluations, we not only delved into the fundamental reasons for the model&#x2019;s outstanding performance but also demonstrated that SWAMN achieved an overall accuracy of 70.82% on test-dev, significantly surpassing current state-of-the-art models and setting a new milestone in the field of VQA.",
+            "arxivPageUrl": "https://doaj.org/article/ec3fae65bd8a4ccb8147eeb45b0a394c",
+            "qualityScore": 55.25,
+            "publishedDate": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "24ae0a522a474f2c80cec7f160ba3a66",
+            "doi": "10.5281/zenodo.14723207",
+            "title": "Building a Framework for Visual Question Answering Systems",
+            "pdfUrl": "https://journal.hcsr.gov.sy/archives/1504",
+            "source": "DOAJ",
+            "authors": [
+                "Maya Abu Hamoud",
+                "Wasim Safi"
+            ],
+            "journal": "Syrian Journal for Science and Innovation",
+            "abstract": "VQA (Visual Question Answering) systems are among the latest advancements in the fields of artificial intelligence and deep learning. They integrate image processing with natural language understanding to enable intelligent systems to answer questions related to image content. The significance of these systems lies in their ability to interpret and analyze images in a manner similar to human comprehension, making them applicable to a wide range of critical fields. VQA systems represent a crucial step towards the development of advanced AI systems that bridge the gap between computer vision and human language understanding, fostering a deeper and more integrated interaction with the real world. This study aimed to thoroughly explore and analyze the methods and techniques used in visual question answering. The focus was on developing an advanced model capable of analyzing and understanding images while responding to related queries. In this paper, we developed a VQA system utilizing artificial intelligence and deep learning techniques. We employed the VGG19 model to extract image features, while questions and answers were encoded using GloVe and Label Encoding techniques. The model was trained using the MSCOCO dataset, which contains a variety of images and related questions. The model's performance was enhanced through multiple experiments to fine-tune the training parameters. The model achieved significant accuracy compared to previous research, with an F1 Score of 44.23% for training accuracy and 42.97% for validation accuracy. The results demonstrated a slight improvement over other models that also utilized VGG19 on the same dataset. Additionally, a web platform was developed to test the system, enabling users to evaluate answer accuracy and use the model on new images or those from the dataset.",
+            "arxivPageUrl": "https://doaj.org/article/24ae0a522a474f2c80cec7f160ba3a66",
+            "qualityScore": 55,
+            "publishedDate": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "38780829",
+            "doi": "10.1007/s11548-024-03141-y",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38780829/",
+            "pmid": "38780829",
+            "year": 2024,
+            "title": "Advancing surgical VQA with scene graph knowledge.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11231006/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Yuan K",
+                "Kattel M",
+                "Lavanchy JL et al."
+            ],
+            "journal": "International journal of computer assisted radiology and surgery",
+            "pubDate": "2024 Jul",
+            "abstract": "PURPOSE: The modern operating room is becoming increasingly complex, requiring innovative intra-operative support systems. While the focus of surgical data science has largely been on video analysis, integrating surgical computer vision with natural language capabilities is emerging as a necessity. Our work aims to advance visual question answering (VQA) in the surgical context with scene graph knowledge, addressing two main challenges in the current surgical VQA systems: removing question-condition bias in the surgical VQA dataset and incorporating scene-aware reasoning in the surgical VQA model design.\n\nMETHODS: First, we propose a surgical scene graph-based dataset, SSG-VQA, generated by employing segmentation and detection models on publicly available datasets. We build surgical scene graphs using spatial and action information of instruments and anatomies. These graphs are fed into a question engine, generating diverse QA pairs. We then propose SSG-VQA-Net, a novel surgical VQA model incorporating a lightweight Scene-embedded Interaction Module, which integrates geometric scene knowledge in the VQA model design by employing cross-attention between the textual and the scene features.\n\nRESULTS: Our comprehensive analysis shows that our SSG-VQA dataset provides a more complex, diverse, geometrically grounded, unbiased and surgical action-oriented dataset compared to existing surgical VQA datasets and SSG-VQA-Net outperforms existing methods across different question types and complexities. We highlight that the primary limitation in the current surgical VQA systems is the lack of scene knowledge to answer complex queries.\n\nCONCLUSION: We present a novel surgical VQA dataset and model and show that results can be significantly improved by incorporating geometric scene features in the VQA model design. We point out that the bottleneck of the current surgical visual question-answer model lies in learning the encoded representation rather than decoding the sequence. Our SSG-VQA dataset provides a diagnostic benchmark to test the scene understanding and reasoning capabilities of the model. The source code and the dataset will be made publicly available at: https://github.com/CAMMA-public/SSG-VQA .",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/38780829/",
+            "fullAbstract": "PURPOSE: The modern operating room is becoming increasingly complex, requiring innovative intra-operative support systems. While the focus of surgical data science has largely been on video analysis, integrating surgical computer vision with natural language capabilities is emerging as a necessity. Our work aims to advance visual question answering (VQA) in the surgical context with scene graph knowledge, addressing two main challenges in the current surgical VQA systems: removing question-condition bias in the surgical VQA dataset and incorporating scene-aware reasoning in the surgical VQA model design.\n\nMETHODS: First, we propose a surgical scene graph-based dataset, SSG-VQA, generated by employing segmentation and detection models on publicly available datasets. We build surgical scene graphs using spatial and action information of instruments and anatomies. These graphs are fed into a question engine, generating diverse QA pairs. We then propose SSG-VQA-Net, a novel surgical VQA model incorporating a lightweight Scene-embedded Interaction Module, which integrates geometric scene knowledge in the VQA model design by employing cross-attention between the textual and the scene features.\n\nRESULTS: Our comprehensive analysis shows that our SSG-VQA dataset provides a more complex, diverse, geometrically grounded, unbiased and surgical action-oriented dataset compared to existing surgical VQA datasets and SSG-VQA-Net outperforms existing methods across different question types and complexities. We highlight that the primary limitation in the current surgical VQA systems is the lack of scene knowledge to answer complex queries.\n\nCONCLUSION: We present a novel surgical VQA dataset and model and show that results can be significantly improved by incorporating geometric scene features in the VQA model design. We point out that the bottleneck of the current surgical visual question-answer model lies in learning the encoded representation rather than decoding the sequence. Our SSG-VQA dataset provides a diagnostic benchmark to test the scene understanding and reasoning capabilities of the model. The source code and the dataset will be made publicly available at: https://github.com/CAMMA-public/SSG-VQA .",
+            "qualityScore": 54.75,
+            "authorsString": "Yuan K, Kattel M, Lavanchy JL et al.",
+            "citationCount": 0,
+            "publishedDate": "2024-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "38647624",
+            "doi": "10.1186/s42492-024-00160-z",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38647624/",
+            "pmid": "38647624",
+            "year": 2024,
+            "title": "Dual modality prompt learning for visual question-grounded answering in robotic surgery.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11551084/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Zhang Y",
+                "Fan W",
+                "Peng P et al."
+            ],
+            "journal": "Visual computing for industry, biomedicine, and art",
+            "pubDate": "2024 Apr 22",
+            "abstract": "With recent advancements in robotic surgery, notable strides have been made in visual question answering (VQA). Existing VQA systems typically generate textual answers to questions but fail to indicate the location of the relevant content within the image. This limitation restricts the interpretative capacity of the VQA models and their ability to explore specific image regions. To address this issue, this study proposes a grounded VQA model for robotic surgery, capable of localizing a specific region during answer prediction. Drawing inspiration from prompt learning in language models, a dual-modality prompt model was developed to enhance precise multimodal information interactions. Specifically, two complementary prompters were introduced to effectively integrate visual and textual prompts into the encoding process of the model. A visual complementary prompter merges visual prompt knowledge with visual information features to guide accurate localization. The textual complementary prompter aligns visual information with textual prompt knowledge and textual information, guiding textual information towards a more accurate inference of the answer. Additionally, a multiple iterative fusion strategy was adopted for comprehensive answer reasoning, to ensure high-quality generation of textual and grounded answers. The experimental results validate the effectiveness of the model, demonstrating its superiority over existing methods on the EndoVis-18 and EndoVis-17 datasets.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/38647624/",
+            "fullAbstract": "With recent advancements in robotic surgery, notable strides have been made in visual question answering (VQA). Existing VQA systems typically generate textual answers to questions but fail to indicate the location of the relevant content within the image. This limitation restricts the interpretative capacity of the VQA models and their ability to explore specific image regions. To address this issue, this study proposes a grounded VQA model for robotic surgery, capable of localizing a specific region during answer prediction. Drawing inspiration from prompt learning in language models, a dual-modality prompt model was developed to enhance precise multimodal information interactions. Specifically, two complementary prompters were introduced to effectively integrate visual and textual prompts into the encoding process of the model. A visual complementary prompter merges visual prompt knowledge with visual information features to guide accurate localization. The textual complementary prompter aligns visual information with textual prompt knowledge and textual information, guiding textual information towards a more accurate inference of the answer. Additionally, a multiple iterative fusion strategy was adopted for comprehensive answer reasoning, to ensure high-quality generation of textual and grounded answers. The experimental results validate the effectiveness of the model, demonstrating its superiority over existing methods on the EndoVis-18 and EndoVis-17 datasets.",
+            "qualityScore": 54.5,
+            "authorsString": "Zhang Y, Fan W, Peng P et al.",
+            "citationCount": 0,
+            "publishedDate": "2024-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "2411.17292",
+            "title": "Task Progressive Curriculum Learning for Robust Visual Question\n  Answering",
+            "pdfUrl": "http://arxiv.org/pdf/2411.17292v1",
+            "source": "ArXiv",
+            "authors": [
+                "Ahmed Akl",
+                "Abdelwahed Khamis",
+                "Zhe Wang",
+                "Ali Cheraghian",
+                "Sara Khalifa",
+                "Kewen Wang"
+            ],
+            "abstract": "Visual Question Answering (VQA) systems are known for their poor performance\nin out-of-distribution datasets. An issue that was addressed in previous works\nthrough ensemble learning, answer re-ranking, or artificially growing the\ntraining set. In this work, we show for the first time that robust Visual\nQuestion Answering is attainable by simply enhancing the training strategy. Our\nproposed approach, Task Progressive Curriculum Learning (TPCL), breaks the main\nVQA problem into smaller, easier tasks based on the question type. Then, it\nprogressively trains the model on a (carefully crafted) sequence of tasks. We\nfurther support the method by a novel distributional-based difficulty measurer.\nOur approach is conceptually simple, model-agnostic, and easy to implement. We\ndemonstrate TPCL effectiveness through a comprehensive evaluation on standard\ndatasets. Without either data augmentation or explicit debiasing mechanism, it\nachieves state-of-the-art on VQA-CP v2, VQA-CP v1 and VQA v2 datasets.\nExtensive experiments demonstrate that TPCL outperforms the most competitive\nrobust VQA approaches by more than 5% and 7% on VQA-CP v2 and VQA-CP v1;\nrespectively. TPCL also can boost VQA baseline backbone performance by up to\n28.5%.",
+            "arxivPageUrl": "http://arxiv.org/abs/2411.17292v1",
+            "qualityScore": 54,
+            "publishedDate": "2024-11-26T10:29:47Z"
+        },
+        {
+            "id": "38089148",
+            "doi": "10.3389/fnbot.2023.1290584",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38089148/",
+            "pmid": "38089148",
+            "year": 2023,
+            "title": "A visual questioning answering approach to enhance robot localization in indoor environments.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10711084/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Peña-Narvaez JD",
+                "Martín F",
+                "Guerrero JM et al."
+            ],
+            "journal": "Frontiers in neurorobotics",
+            "pubDate": "2023",
+            "abstract": "Navigating robots with precision in complex environments remains a significant challenge. In this article, we present an innovative approach to enhance robot localization in dynamic and intricate spaces like homes and offices. We leverage Visual Question Answering (VQA) techniques to integrate semantic insights into traditional mapping methods, formulating a novel position hypothesis generation to assist localization methods, while also addressing challenges related to mapping accuracy and localization reliability. Our methodology combines a probabilistic approach with the latest advances in Monte Carlo Localization methods and Visual Language models. The integration of our hypothesis generation mechanism results in more robust robot localization compared to existing approaches. Experimental validation demonstrates the effectiveness of our approach, surpassing state-of-the-art multi-hypothesis algorithms in both position estimation and particle quality. This highlights the potential for accurate self-localization, even in symmetric environments with large corridor spaces. Furthermore, our approach exhibits a high recovery rate from deliberate position alterations, showcasing its robustness. By merging visual sensing, semantic mapping, and advanced localization techniques, we open new horizons for robot navigation. Our work bridges the gap between visual perception, semantic understanding, and traditional mapping, enabling robots to interact with their environment through questions and enrich their map with valuable insights. The code for this project is available on GitHub https://github.com/juandpenan/topology_nav_ros2.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/38089148/",
+            "fullAbstract": "Navigating robots with precision in complex environments remains a significant challenge. In this article, we present an innovative approach to enhance robot localization in dynamic and intricate spaces like homes and offices. We leverage Visual Question Answering (VQA) techniques to integrate semantic insights into traditional mapping methods, formulating a novel position hypothesis generation to assist localization methods, while also addressing challenges related to mapping accuracy and localization reliability. Our methodology combines a probabilistic approach with the latest advances in Monte Carlo Localization methods and Visual Language models. The integration of our hypothesis generation mechanism results in more robust robot localization compared to existing approaches. Experimental validation demonstrates the effectiveness of our approach, surpassing state-of-the-art multi-hypothesis algorithms in both position estimation and particle quality. This highlights the potential for accurate self-localization, even in symmetric environments with large corridor spaces. Furthermore, our approach exhibits a high recovery rate from deliberate position alterations, showcasing its robustness. By merging visual sensing, semantic mapping, and advanced localization techniques, we open new horizons for robot navigation. Our work bridges the gap between visual perception, semantic understanding, and traditional mapping, enabling robots to interact with their environment through questions and enrich their map with valuable insights. The code for this project is available on GitHub https://github.com/juandpenan/topology_nav_ros2.",
+            "qualityScore": 52.25,
+            "authorsString": "Peña-Narvaez JD, Martín F, Guerrero JM et al.",
+            "citationCount": 0,
+            "publishedDate": "2023-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "36772095",
+            "doi": "10.3390/s23031057",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36772095/",
+            "pmid": "36772095",
+            "year": 2023,
+            "title": "Diversity Learning Based on Multi-Latent Space for Medical Image Visual Question Generation.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9919063/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Zhu H",
+                "Togo R",
+                "Ogawa T et al."
+            ],
+            "journal": "Sensors (Basel, Switzerland)",
+            "pubDate": "2023 Jan 17",
+            "abstract": "Auxiliary clinical diagnosis has been researched to solve unevenly and insufficiently distributed clinical resources. However, auxiliary diagnosis is still dominated by human physicians, and how to make intelligent systems more involved in the diagnosis process is gradually becoming a concern. An interactive automated clinical diagnosis with a question-answering system and a question generation system can capture a patient's conditions from multiple perspectives with less physician involvement by asking different questions to drive and guide the diagnosis. This clinical diagnosis process requires diverse information to evaluate a patient from different perspectives to obtain an accurate diagnosis. Recently proposed medical question generation systems have not considered diversity. Thus, we propose a diversity learning-based visual question generation model using a multi-latent space to generate informative question sets from medical images. The proposed method generates various questions by embedding visual and language information in different latent spaces, whose diversity is trained by our newly proposed loss. We have also added control over the categories of generated questions, making the generated questions directional. Furthermore, we use a new metric named similarity to accurately evaluate the proposed model's performance. The experimental results on the Slake and VQA-RAD datasets demonstrate that the proposed method can generate questions with diverse information. Our model works with an answering model for interactive automated clinical diagnosis and generates datasets to replace the process of annotation that incurs huge labor costs.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/36772095/",
+            "fullAbstract": "Auxiliary clinical diagnosis has been researched to solve unevenly and insufficiently distributed clinical resources. However, auxiliary diagnosis is still dominated by human physicians, and how to make intelligent systems more involved in the diagnosis process is gradually becoming a concern. An interactive automated clinical diagnosis with a question-answering system and a question generation system can capture a patient's conditions from multiple perspectives with less physician involvement by asking different questions to drive and guide the diagnosis. This clinical diagnosis process requires diverse information to evaluate a patient from different perspectives to obtain an accurate diagnosis. Recently proposed medical question generation systems have not considered diversity. Thus, we propose a diversity learning-based visual question generation model using a multi-latent space to generate informative question sets from medical images. The proposed method generates various questions by embedding visual and language information in different latent spaces, whose diversity is trained by our newly proposed loss. We have also added control over the categories of generated questions, making the generated questions directional. Furthermore, we use a new metric named similarity to accurately evaluate the proposed model's performance. The experimental results on the Slake and VQA-RAD datasets demonstrate that the proposed method can generate questions with diverse information. Our model works with an answering model for interactive automated clinical diagnosis and generates datasets to replace the process of annotation that incurs huge labor costs.",
+            "qualityScore": 52,
+            "authorsString": "Zhu H, Togo R, Ogawa T et al.",
+            "citationCount": 0,
+            "publishedDate": "2023-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "2309.17133",
+            "title": "Fine-grained Late-interaction Multi-modal Retrieval for Retrieval\n  Augmented Visual Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/2309.17133v2",
+            "source": "ArXiv",
+            "authors": [
+                "Weizhe Lin",
+                "Jinghong Chen",
+                "Jingbiao Mei",
+                "Alexandru Coca",
+                "Bill Byrne"
+            ],
+            "abstract": "Knowledge-based Visual Question Answering (KB-VQA) requires VQA systems to\nutilize knowledge from external knowledge bases to answer visually-grounded\nquestions. Retrieval-Augmented Visual Question Answering (RA-VQA), a strong\nframework to tackle KB-VQA, first retrieves related documents with Dense\nPassage Retrieval (DPR) and then uses them to answer questions. This paper\nproposes Fine-grained Late-interaction Multi-modal Retrieval (FLMR) which\nsignificantly improves knowledge retrieval in RA-VQA. FLMR addresses two major\nlimitations in RA-VQA's retriever: (1) the image representations obtained via\nimage-to-text transforms can be incomplete and inaccurate and (2) relevance\nscores between queries and documents are computed with one-dimensional\nembeddings, which can be insensitive to finer-grained relevance. FLMR overcomes\nthese limitations by obtaining image representations that complement those from\nthe image-to-text transforms using a vision model aligned with an existing\ntext-based retriever through a simple alignment network. FLMR also encodes\nimages and questions using multi-dimensional embeddings to capture\nfiner-grained relevance between queries and documents. FLMR significantly\nimproves the original RA-VQA retriever's PRRecall@5 by approximately 8\\%.\nFinally, we equipped RA-VQA with two state-of-the-art large\nmulti-modal/language models to achieve $\\sim61\\%$ VQA score in the OK-VQA\ndataset.",
+            "arxivPageUrl": "http://arxiv.org/abs/2309.17133v2",
+            "qualityScore": 51.5,
+            "publishedDate": "2023-09-29T10:54:10Z"
+        },
+        {
+            "id": "2310.02567",
+            "title": "Improving Automatic VQA Evaluation Using Large Language Models",
+            "pdfUrl": "http://arxiv.org/pdf/2310.02567v2",
+            "source": "ArXiv",
+            "authors": [
+                "Oscar Mañas",
+                "Benno Krojer",
+                "Aishwarya Agrawal"
+            ],
+            "abstract": "8 years after the visual question answering (VQA) task was proposed, accuracy\nremains the primary metric for automatic evaluation. VQA Accuracy has been\neffective so far in the IID evaluation setting. However, our community is\nundergoing a shift towards open-ended generative models and OOD evaluation. In\nthis new paradigm, the existing VQA Accuracy metric is overly stringent and\nunderestimates the performance of VQA systems. Thus, there is a need to develop\nmore robust automatic VQA metrics that serve as a proxy for human judgment. In\nthis work, we propose to leverage the in-context learning capabilities of\ninstruction-tuned large language models (LLMs) to build a better VQA metric. We\nformulate VQA evaluation as an answer-rating task where the LLM is instructed\nto score the accuracy of a candidate answer given a set of reference answers.\nWe demonstrate the proposed metric better correlates with human judgment\ncompared to existing metrics across several VQA models and benchmarks. We hope\nwide adoption of our metric will contribute to better estimating the research\nprogress on the VQA task. We plan to release the evaluation code and collected\nhuman judgments.",
+            "arxivPageUrl": "http://arxiv.org/abs/2310.02567v2",
+            "qualityScore": 50.75,
+            "publishedDate": "2023-10-04T03:59:57Z"
+        },
+        {
+            "id": "35336415",
+            "doi": "10.3390/s22062245",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35336415/",
+            "pmid": "35336415",
+            "year": 2022,
+            "title": "COIN: Counterfactual Image Generation for Visual Question Answering Interpretation.",
+            "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8953790/pdf/",
+            "source": "PubMed",
+            "authors": [
+                "Boukhers Z",
+                "Hartmann T",
+                "Jürjens J"
+            ],
+            "journal": "Sensors (Basel, Switzerland)",
+            "pubDate": "2022 Mar 14",
+            "abstract": "Due to the significant advancement of Natural Language Processing and Computer Vision-based models, Visual Question Answering (VQA) systems are becoming more intelligent and advanced. However, they are still error-prone when dealing with relatively complex questions. Therefore, it is important to understand the behaviour of the VQA models before adopting their results. In this paper, we introduce an interpretability approach for VQA models by generating counterfactual images. Specifically, the generated image is supposed to have the minimal possible change to the original image and leads the VQA model to give a different answer. In addition, our approach ensures that the generated image is realistic. Since quantitative metrics cannot be employed to evaluate the interpretability of the model, we carried out a user study to assess different aspects of our approach. In addition to interpreting the result of VQA models on single images, the obtained results and the discussion provides an extensive explanation of VQA models' behaviour.",
+            "arxivPageUrl": "https://pubmed.ncbi.nlm.nih.gov/35336415/",
+            "fullAbstract": "Due to the significant advancement of Natural Language Processing and Computer Vision-based models, Visual Question Answering (VQA) systems are becoming more intelligent and advanced. However, they are still error-prone when dealing with relatively complex questions. Therefore, it is important to understand the behaviour of the VQA models before adopting their results. In this paper, we introduce an interpretability approach for VQA models by generating counterfactual images. Specifically, the generated image is supposed to have the minimal possible change to the original image and leads the VQA model to give a different answer. In addition, our approach ensures that the generated image is realistic. Since quantitative metrics cannot be employed to evaluate the interpretability of the model, we carried out a user study to assess different aspects of our approach. In addition to interpreting the result of VQA models on single images, the obtained results and the discussion provides an extensive explanation of VQA models' behaviour.",
+            "qualityScore": 49.75,
+            "authorsString": "Boukhers Z, Hartmann T, Jürjens J",
+            "citationCount": 0,
+            "publishedDate": "2022-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "28a5329ba8ae470392d86e306827befe",
+            "doi": "10.3390/math10173110",
+            "title": "Region Collaborative Network for Detection-Based Vision-Language Understanding",
+            "pdfUrl": "https://www.mdpi.com/2227-7390/10/17/3110",
+            "source": "DOAJ",
+            "authors": [
+                "Linyan Li",
+                "Kaile Du",
+                "Minming Gu",
+                "Fuyuan Hu",
+                "Fan Lyu"
+            ],
+            "journal": "Mathematics",
+            "abstract": "Given a query language, a Detection-based Vision-Language Understanding (DVLU) system needs to respond based on the detected regions (i.e.,bounding boxes). With the significant advancement in object detection, DVLU has witnessed great improvements in recent years, such as Visual Question Answering (VQA) and Visual Grounding (VG). However, existing DVLU methods always process each detected image region separately but ignore that they were an integral whole. Without the full consideration of each region’s context, the image’s understanding may contain more bias. In this paper, to solve the problem, a simple yet effective Region Collaborative Network (RCN) block is proposed to bridge the gap between independent regions and the integrative DVLU task. Specifically, the Intra-Region Relations (IntraRR) inside each detected region are computed by a position-wise and channel-wise joint non-local model. Then, the Inter-Region Relations (InterRR) across all the detected regions are computed by pooling and sharing parameters with IntraRR. The proposed RCN can enhance the features of each region by using information from all other regions and guarantees the dimension consistency between input and output. The RCN is evaluated on VQA and VG, and the experimental results show that our method can significantly improve the performance of existing DVLU models.",
+            "arxivPageUrl": "https://doaj.org/article/28a5329ba8ae470392d86e306827befe",
+            "qualityScore": 48.5,
+            "publishedDate": "2022-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "669158a0bc1b4f508a31059c69aa3ec3",
+            "doi": "10.1002/ail2.47",
+            "title": "Improving users' mental model with attention‐directed counterfactual edits",
+            "pdfUrl": "https://doi.org/10.1002/ail2.47",
+            "source": "DOAJ",
+            "authors": [
+                "Kamran Alipour",
+                "Arijit Ray",
+                "Xiao Lin",
+                "Michael Cogswell",
+                "Jurgen P. Schulze",
+                "Yi Yao",
+                "Giedrius T. Burachas"
+            ],
+            "journal": "Applied AI Letters",
+            "abstract": "Abstract In the domain of visual question answering (VQA), studies have shown improvement in users' mental model of the VQA system when they are exposed to examples of how these systems answer certain image‐question (IQ) pairs. In this work, we show that showing controlled counterfactual IQ examples are more effective at improving the mental model of users as compared to simply showing random examples. We compare a generative approach and a retrieval‐based approach to show counterfactual examples. We use recent advances in generative adversarial networks to generate counterfactual images by deleting and inpainting certain regions of interest in the image. We then expose users to changes in the VQA system's answer on those altered images. To select the region of interest for inpainting, we experiment with using both human‐annotated attention maps and a fully automatic method that uses the VQA system's attention values. Finally, we test the user's mental model by asking them to predict the model's performance on a test counterfactual image. We note an overall improvement in users' accuracy to predict answer change when shown counterfactual explanations. While realistic retrieved counterfactuals obviously are the most effective at improving the mental model, we show that a generative approach can also be equally effective.",
+            "arxivPageUrl": "https://doaj.org/article/669158a0bc1b4f508a31059c69aa3ec3",
+            "qualityScore": 48.5,
+            "publishedDate": "2021-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "2210.10176",
+            "title": "Entity-Focused Dense Passage Retrieval for Outside-Knowledge Visual\n  Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/2210.10176v2",
+            "source": "ArXiv",
+            "authors": [
+                "Jialin Wu",
+                "Raymond J. Mooney"
+            ],
+            "abstract": "Most Outside-Knowledge Visual Question Answering (OK-VQA) systems employ a\ntwo-stage framework that first retrieves external knowledge given the visual\nquestion and then predicts the answer based on the retrieved content. However,\nthe retrieved knowledge is often inadequate. Retrievals are frequently too\ngeneral and fail to cover specific knowledge needed to answer the question.\nAlso, the naturally available supervision (whether the passage contains the\ncorrect answer) is weak and does not guarantee question relevancy. To address\nthese issues, we propose an Entity-Focused Retrieval (EnFoRe) model that\nprovides stronger supervision during training and recognizes question-relevant\nentities to help retrieve more specific knowledge. Experiments show that our\nEnFoRe model achieves superior retrieval performance on OK-VQA, the currently\nlargest outside-knowledge VQA dataset. We also combine the retrieved knowledge\nwith state-of-the-art VQA models, and achieve a new state-of-the-art\nperformance on OK-VQA.",
+            "arxivPageUrl": "http://arxiv.org/abs/2210.10176v2",
+            "qualityScore": 48,
+            "publishedDate": "2022-10-18T21:39:24Z"
+        },
+        {
+            "id": "dca0fb187ff340749b98f837aa236f19",
+            "doi": "10.5194/isprs-annals-V-2-2020-1021-2020",
+            "title": "BETTER GENERIC OBJECTS COUNTING WHEN ASKING QUESTIONS TO IMAGES: A MULTITASK APPROACH FOR REMOTE SENSING VISUAL QUESTION ANSWERING",
+            "pdfUrl": "https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/1021/2020/isprs-annals-V-2-2020-1021-2020.pdf",
+            "source": "DOAJ",
+            "authors": [
+                "S. Lobry",
+                "D. Marcos",
+                "B. Kellenberger",
+                "D. Tuia"
+            ],
+            "journal": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+            "abstract": "Visual Question Answering for Remote Sensing (RSVQA) aims at extracting information from remote sensing images through queries formulated in natural language. Since the answer to the query is also provided in natural language, the system is accessible to non-experts, and therefore dramatically increases the value of remote sensing images as a source of information, for example for journalism purposes or interactive land planning. Ideally, an RSVQA system should be able to provide an answer to questions that vary both in terms of topic (presence, localization, counting) and image content. However, aiming at such flexibility generates problems related to the variability of the possible answers. A striking example is counting, where the number of objects present in a remote sensing image can vary by multiple orders of magnitude, depending on both the scene and type of objects. This represents a challenge for traditional Visual Question Answering (VQA) methods, which either become intractable or result in an accuracy loss, as the number of possible answers has to be limited. To this end, we introduce a new model that jointly solves a classification problem (which is the most common approach in VQA) and a regression problem (to answer numerical questions more precisely). An evaluation of this method on the RSVQA dataset shows that this finer numerical output comes at the cost of a small loss of performance on non-numerical questions.",
+            "arxivPageUrl": "https://doaj.org/article/dca0fb187ff340749b98f837aa236f19",
+            "qualityScore": 43,
+            "publishedDate": "2020-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "1902.05660",
+            "title": "Cycle-Consistency for Robust Visual Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/1902.05660v1",
+            "source": "ArXiv",
+            "authors": [
+                "Meet Shah",
+                "Xinlei Chen",
+                "Marcus Rohrbach",
+                "Devi Parikh"
+            ],
+            "abstract": "Despite significant progress in Visual Question Answering over the years,\nrobustness of today's VQA models leave much to be desired. We introduce a new\nevaluation protocol and associated dataset (VQA-Rephrasings) and show that\nstate-of-the-art VQA models are notoriously brittle to linguistic variations in\nquestions. VQA-Rephrasings contains 3 human-provided rephrasings for 40k\nquestions spanning 40k images from the VQA v2.0 validation dataset. As a step\ntowards improving robustness of VQA models, we propose a model-agnostic\nframework that exploits cycle consistency. Specifically, we train a model to\nnot only answer a question, but also generate a question conditioned on the\nanswer, such that the answer predicted for the generated question is the same\nas the ground truth answer to the original question. Without the use of\nadditional annotations, we show that our approach is significantly more robust\nto linguistic variations than state-of-the-art VQA models, when evaluated on\nthe VQA-Rephrasings dataset. In addition, our approach outperforms\nstate-of-the-art approaches on the standard VQA and Visual Question Generation\ntasks on the challenging VQA v2.0 dataset.",
+            "arxivPageUrl": "http://arxiv.org/abs/1902.05660v1",
+            "qualityScore": 41,
+            "publishedDate": "2019-02-15T02:07:18Z"
+        },
+        {
+            "id": "2006.15631",
+            "title": "Improving VQA and its Explanations \\\\ by Comparing Competing\n  Explanations",
+            "pdfUrl": "http://arxiv.org/pdf/2006.15631v1",
+            "source": "ArXiv",
+            "authors": [
+                "Jialin Wu",
+                "Liyan Chen",
+                "Raymond J. Mooney"
+            ],
+            "abstract": "Most recent state-of-the-art Visual Question Answering (VQA) systems are\nopaque black boxes that are only trained to fit the answer distribution given\nthe question and visual content. As a result, these systems frequently take\nshortcuts, focusing on simple visual concepts or question priors. This\nphenomenon becomes more problematic as the questions become complex that\nrequires more reasoning and commonsense knowledge. To address this issue, we\npresent a novel framework that uses explanations for competing answers to help\nVQA systems select the correct answer. By training on human textual\nexplanations, our framework builds better representations for the questions and\nvisual content, and then reweights confidences in the answer candidates using\neither generated or retrieved explanations from the training set. We evaluate\nour framework on the VQA-X dataset, which has more difficult questions with\nhuman explanations, achieving new state-of-the-art results on both VQA and its\nexplanations.",
+            "arxivPageUrl": "http://arxiv.org/abs/2006.15631v1",
+            "qualityScore": 40.75,
+            "publishedDate": "2020-06-28T15:11:40Z"
+        },
+        {
+            "id": "1805.08389",
+            "title": "Joint Image Captioning and Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/1805.08389v1",
+            "source": "ArXiv",
+            "authors": [
+                "Jialin Wu",
+                "Zeyuan Hu",
+                "Raymond J. Mooney"
+            ],
+            "abstract": "Answering visual questions need acquire daily common knowledge and model the\nsemantic connection among different parts in images, which is too difficult for\nVQA systems to learn from images with the only supervision from answers.\nMeanwhile, image captioning systems with beam search strategy tend to generate\nsimilar captions and fail to diversely describe images. To address the\naforementioned issues, we present a system to have these two tasks compensate\nwith each other, which is capable of jointly producing image captions and\nanswering visual questions. In particular, we utilize question and image\nfeatures to generate question-related captions and use the generated captions\nas additional features to provide new knowledge to the VQA system. For image\ncaptioning, our system attains more informative results in term of the relative\nimprovements on VQA tasks as well as competitive results using automated\nmetrics. Applying our system to the VQA tasks, our results on VQA v2 dataset\nachieve 65.8% using generated captions and 69.1% using annotated captions in\nvalidation set and 68.4% in the test-standard set. Further, an ensemble of 10\nmodels results in 69.7% in the test-standard split.",
+            "arxivPageUrl": "http://arxiv.org/abs/1805.08389v1",
+            "qualityScore": 40.15,
+            "publishedDate": "2018-05-22T04:41:37Z"
+        },
+        {
+            "id": "1505.00468",
+            "title": "VQA: Visual Question Answering",
+            "pdfUrl": "http://arxiv.org/pdf/1505.00468v7",
+            "source": "ArXiv",
+            "authors": [
+                "Aishwarya Agrawal",
+                "Jiasen Lu",
+                "Stanislaw Antol",
+                "Margaret Mitchell",
+                "C. Lawrence Zitnick",
+                "Dhruv Batra",
+                "Devi Parikh"
+            ],
+            "abstract": "We propose the task of free-form and open-ended Visual Question Answering\n(VQA). Given an image and a natural language question about the image, the task\nis to provide an accurate natural language answer. Mirroring real-world\nscenarios, such as helping the visually impaired, both the questions and\nanswers are open-ended. Visual questions selectively target different areas of\nan image, including background details and underlying context. As a result, a\nsystem that succeeds at VQA typically needs a more detailed understanding of\nthe image and complex reasoning than a system producing generic image captions.\nMoreover, VQA is amenable to automatic evaluation, since many open-ended\nanswers contain only a few words or a closed set of answers that can be\nprovided in a multiple-choice format. We provide a dataset containing ~0.25M\nimages, ~0.76M questions, and ~10M answers (www.visualqa.org), and discuss the\ninformation it provides. Numerous baselines and methods for VQA are provided\nand compared with human performance. Our VQA demo is available on CloudCV\n(http://cloudcv.org/vqa).",
+            "arxivPageUrl": "http://arxiv.org/abs/1505.00468v7",
+            "qualityScore": 36.5,
+            "publishedDate": "2015-05-03T20:07:39Z"
+        }
+    ]
+}
